@@ -6,6 +6,115 @@
   <link rel="stylesheet" type="text/css" href="module2_solution/CSS" />
   </head>
   <style>
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#p1 {
+  background-color: lightgrey;
+  float: left;
+  border: black 2px solid;
+  margin: 6px;
+  padding: 10px;
+  padding-top: 30px;
+  position: relative;
+}
+#p2 {
+  background-color: lightgrey;
+  float: left;
+  border: black 2px solid;
+  margin: 6px;
+  padding: 10px;
+  padding-top: 30px;
+  position: relative;
+}
+#p3 {
+  background-color: lightgrey;
+  float: left;
+  border: black 2px solid;
+  margin: 6px;
+  padding: 10px;
+  padding-top: 30px;
+  position: relative;
+}
+h1 {
+  text-align: center;
+}
+a {
+  border: black solid 2px;
+  padding: 5px;
+  text-align: center;
+  float: right;
+  width: 30%;
+  position: relative;
+  margin-right: -12px;
+  margin-top: -32px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#item1 {
+  background-color: lightpink;
+}
+#item2 {
+  background-color: maroon;
+  color: white;
+}
+#item3 {
+  background-color: moccasin;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #p1 {
+    width: 32%;
+  }
+  #p2 {
+    width: 32%;
+  }
+  #p3 {
+    width: 32%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 47%;
+  }
+  #p2 {
+    width: 47%;
+  }
+  #p3 {
+    width: 95%;
+  }
+  #item3 {
+    width: 14.5%;
+  }
+}
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  #p1 {
+    width: 95%;
+  }
+  #p2 {
+    width: 95%;
+  }
+  #p3 {
+    width: 95%;
+  }
+  #item1 {
+    width: 15%;
+  }
+  #item2 {
+    width: 15%;
+  }
+  #item3 {
+    width: 15%;
+  }
+}
 
 </style>
   <body>

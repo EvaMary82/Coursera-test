@@ -1,1 +1,53 @@
+body {
+  font-family: cursive;
+}
+/** Header **/
+#header-nav {
+  background-color: lavenderblush;
+  border-radius: 0;
+  border-bottom: plum solid 2px;
+  border-top: plum solid 2px;
+  height: 80px;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: plum;
+  border: 2px solid plum;
+}
+
+#collapsable-nav {
+  background-color: lavenderblush;
+}
+#collapsable-nav a:hover {
+  background-color: plum;
+}
+
+#collapsable-nav span {
+  color: black;
+  font-size: 20px;
+}
+.navbar-brand h1 {
+  font-family: cursive;
+  font-weight: bold;
+  color: plum;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  text-transform: uppercase;
+  line-height: 0.75;
+}
+.navbar-brand a :hover,
+.navbar-brand a :focus {
+  text-decoration: none;
+}
+.container .jumbotron {
+  background-color: lavender;
+  margin-top: 60px;
+}
+.navbar-header button .navbar-toggle {
+  border: solid 2px plum;
+}
 
